@@ -1,0 +1,4 @@
+image:
+  repository: vkmellon/demo_app
+  pullPolicy: IfNotPresent
+  tag: "1.1.0"
