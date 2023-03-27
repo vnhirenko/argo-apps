@@ -1,0 +1,11 @@
+name: product-dev-charge-service
+
+repository:
+  url: git@github.com:vnhirenko/demo-app.git
+  path: helm/demo-app
+
+app_values: |
+  image:
+    repository: vkmellon/demo_app
+    pullPolicy: IfNotPresent
+    tag: "1.0.0"
