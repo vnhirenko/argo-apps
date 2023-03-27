@@ -1,4 +1,7 @@
-name: product-dev-charge-service
+name: demo-app
+
+app_namespace: default
+address: https://kubernetes.default.svc
 
 repository:
   url: git@github.com:vnhirenko/demo-app.git
